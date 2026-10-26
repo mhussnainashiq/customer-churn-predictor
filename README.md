@@ -16,12 +16,12 @@ python -m venv .venv
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 python -m app.train
-uvicorn app.main:app --reload --host 127.0.0.1 --port 8000
+
 ```
 If `py` is unavailable, use `python -m venv .venv`. If PowerShell blocks activation:
 `Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass`
 
-API docs: http://127.0.0.1:8000/docs
+
 
 ## Run frontend (new terminal)
 ```powershell
@@ -29,7 +29,7 @@ cd frontend
 npm install
 npm run dev
 ```
-Open http://127.0.0.1:5173
+
 
 ## Tests
 With backend venv active, run `pytest` inside `backend/`.
