@@ -1,0 +1,27 @@
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment secrets
+.env
+.env.*
+
+# Keep example configuration files
+!.env.example
+
+# Generated databases
+*.db
+*.sqlite
+*.sqlite3
+
+# Node.js
+node_modules/
+frontend/dist/
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
